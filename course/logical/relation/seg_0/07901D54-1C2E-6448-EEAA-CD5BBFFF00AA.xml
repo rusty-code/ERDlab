@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Идентификиция адреса" directorySegmentName="seg_0" id="07901D54-1C2E-6448-EEAA-CD5BBFFF00AA">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:54:45 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<sourcePk>178380AF-C853-F819-809B-951F5DF98B6E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>идентифицирует</nameOnSource>
+<nameOnTarget>идентифицируется</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>454B5386-E345-F538-844D-1D37935813DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6C574778-E302-6721-9E2A-84459BDE9B66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

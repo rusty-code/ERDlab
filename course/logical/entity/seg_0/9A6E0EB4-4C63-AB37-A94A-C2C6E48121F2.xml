@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A6E0EB4-4C63-AB37-A94A-C2C6E48121F2" name="Специальная стоянка">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 07:32:30 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>return_pnkt</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Номер пункта" id="13C81AC6-2B64-16F4-EB7F-FDBABEB20126">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:01:35 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F094A553-291D-783B-AB32-4BE37B1D3F6B" name="Пункт возврата PK">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:02:25 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13C81AC6-2B64-16F4-EB7F-FDBABEB20126</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

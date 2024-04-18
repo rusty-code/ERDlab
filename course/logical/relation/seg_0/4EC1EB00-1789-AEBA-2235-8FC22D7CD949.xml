@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Регион использования тарифа" directorySegmentName="seg_0" id="4EC1EB00-1789-AEBA-2235-8FC22D7CD949">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:34:59 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<sourcePk>178380AF-C853-F819-809B-951F5DF98B6E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>содержит</nameOnSource>
+<nameOnTarget>действует внутри</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>454B5386-E345-F538-844D-1D37935813DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C951DCC-7C7B-60B3-2730-8C9EF0261F06</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Долгосрочная аренда автомобиля" directorySegmentName="seg_0" id="E0162AED-D962-0B44-BB5C-532D836D035E">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:24:29 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Арендует</nameOnSource>
+<nameOnTarget>Арендуется</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C951DCC-7C7B-60B3-2730-8C9EF0261F06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F6126AC-8484-4F6F-B3A6-D939C5207725</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

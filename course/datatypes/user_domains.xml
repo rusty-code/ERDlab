@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="user_domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="_USER_DOCS_NOMER_INT" directorySegmentName="seg_0" id="94D34918-FA31-0841-89CE-302183A74717">
+         <createdBy>pwr</createdBy>
+         <createdTime>2024-04-18 07:29:06 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>6</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>pwr</createdBy>
+         <createdTime>2024-04-18 07:29:02 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="_USER_DOCS_SERIA_INT" directorySegmentName="seg_0" id="F8685B55-91B2-8A87-EE91-160E2756DEB6">
+         <createdBy>pwr</createdBy>
+         <createdTime>2024-04-18 07:29:36 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>4</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Обратная связь от клиента по заказу" directorySegmentName="seg_0" id="DAA35F16-36FE-9C55-28E7-748F85EEECC3">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:22:45 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<sourcePk>C8826306-DB8D-F2FA-6370-BB600ECFE7EA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>оставляет</nameOnSource>
+<nameOnTarget>оставляются</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB385B64-53ED-94D5-89AC-AC7DFFD62240</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8BD7FD4D-9CCF-0160-5373-60ABE26BB5EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Наличие у клиента старых водительских удостоверений" directorySegmentName="seg_0" id="F9F6CC40-5EF9-B6A4-9679-6B80CC01E781">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:09:54 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<sourcePk>99775D58-D88F-ABCB-1BBA-243E9C0033D6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>берёт информацию из</nameOnSource>
+<nameOnTarget>дополняет</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A23490C6-8655-630F-8E70-024A13FB5338</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D9B4C7B-4773-5134-586F-4F057820B404</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

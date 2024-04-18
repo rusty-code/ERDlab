@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Оформление краткосрочнного тарифа" directorySegmentName="seg_0" id="C3A6E44C-A9CE-58C0-2B96-E10D65764A96">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:19:25 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<sourcePk>F3A89FCE-B4C3-F1C6-7B6E-52E483505877</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>оформляет</nameOnSource>
+<nameOnTarget>оформляется</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9288AAD4-4956-CAED-E046-05EB33A9449E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8F008346-E1E2-770B-C86A-ACCF36F1FC2F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

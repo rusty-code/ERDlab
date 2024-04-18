@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Локация спецстоянки" directorySegmentName="seg_0" id="00FC3B69-7F85-CB14-DDCE-AFAE3A1DF82D">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:00:45 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>располагает</nameOnSource>
+<nameOnTarget>находится</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C574778-E302-6721-9E2A-84459BDE9B66</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A6E0EB4-4C63-AB37-A94A-C2C6E48121F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

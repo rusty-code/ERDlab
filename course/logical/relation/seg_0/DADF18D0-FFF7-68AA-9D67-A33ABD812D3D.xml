@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Наличие нарушений ПДД" directorySegmentName="seg_0" id="DADF18D0-FFF7-68AA-9D67-A33ABD812D3D">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:07:41 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<sourcePk>C8826306-DB8D-F2FA-6370-BB600ECFE7EA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>имеет</nameOnSource>
+<nameOnTarget>имеется</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB385B64-53ED-94D5-89AC-AC7DFFD62240</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F49B4FFA-F189-4644-45DE-5BB1F0B1EC83</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

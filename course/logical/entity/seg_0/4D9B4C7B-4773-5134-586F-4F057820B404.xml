@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D9B4C7B-4773-5134-586F-4F057820B404" name="История водительских удостоверений">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 07:32:30 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>history_drive_licenses</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Номер В/У" id="F6442845-49A9-2AFE-CAD3-99B3FF0AE030">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 07:45:32 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Серия В/У" id="E7F21BA1-1769-7026-E6A4-1F075CED9E97">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 07:46:04 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Серия В/У1" id="1B966FAA-92AC-09C9-E06E-299532EF7E1B">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:09:54 UTC</createdTime>
+<generatorID>F9F6CC40-5EF9-B6A4-9679-6B80CC01E781</generatorID>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<referedAttribute>7116114D-632D-01C6-1220-69EB29D4F6B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер В/У1" id="3273B087-BBC1-449E-11E0-134459B214B2">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 08:09:54 UTC</createdTime>
+<generatorID>F9F6CC40-5EF9-B6A4-9679-6B80CC01E781</generatorID>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<referedAttribute>02F0925D-CA53-0D6E-87F2-DD93487859C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E320C191-7A7E-5E43-1A0A-153E31FE627A" name="История водительских удостоверений PK">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 07:45:57 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6442845-49A9-2AFE-CAD3-99B3FF0AE030</attributeRef>
+<attributeRef>E7F21BA1-1769-7026-E6A4-1F075CED9E97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

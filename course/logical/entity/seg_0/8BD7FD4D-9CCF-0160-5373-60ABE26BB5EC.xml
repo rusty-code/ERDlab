@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BD7FD4D-9CCF-0160-5373-60ABE26BB5EC" name="Жалобы и предложения">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:17:49 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>feedback</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Номер обращения" id="B85F4A95-115A-A6BD-2709-341F3E5D1755">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:18:56 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер заказа" id="6CDE3501-AD5B-1EAB-9D41-123A907DCEF8">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:21:08 UTC</createdTime>
+<generatorID>B2BF1FE5-61FA-075E-4172-1082FF7397A3</generatorID>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>456A27AA-AF5D-B18A-3189-D01E19E519EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Серия паспорта" id="EB387FFD-59D8-7359-6C7D-B6F1A56203EA">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:22:45 UTC</createdTime>
+<generatorID>DAA35F16-36FE-9C55-28E7-748F85EEECC3</generatorID>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>68F57992-224B-A590-31E4-B1DB1E13C878</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер паспорта" id="D4DD9DB4-F3FB-78F9-46F7-93D75736CAB2">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:22:45 UTC</createdTime>
+<generatorID>DAA35F16-36FE-9C55-28E7-748F85EEECC3</generatorID>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>565B489C-8864-E7E7-262E-1338E6FDCEDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05BC7946-697F-9717-67E8-5C416AE2FA9B" name="Жалобы и предложения PK">
+<createdBy>pwr</createdBy>
+<createdTime>2024-04-18 09:19:22 UTC</createdTime>
+<ownerDesignName>course</ownerDesignName>
+<engineerTo>
+<item key="812EAF42-5F09-094E-2B4E-35FCACA629A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B85F4A95-115A-A6BD-2709-341F3E5D1755</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
